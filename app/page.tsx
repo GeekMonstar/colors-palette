@@ -1,6 +1,5 @@
 "use client"
 import { useState, useEffect, MouseEvent } from 'react'
-import { Button } from "@/components/ui/button"
 import { useToast } from "@/components/ui/use-toast"
 import { Toaster } from "@/components/ui/toaster"
 import { generatePalette, generateRandomColor } from '@/lib/utils'
